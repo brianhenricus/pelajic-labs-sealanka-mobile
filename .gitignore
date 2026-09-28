@@ -1,0 +1,63 @@
+# Debug screenshots dumped in the project root during manual testing --
+# not app content, don't belong in the repo.
+/check*.png
+/eez*.png
+/verify*.png
+/pfz_screen.png
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Signing -- never committed, regardless of debug/release. A fresh clone
+# needs to generate its own debug keystore and register its SHA-1 with
+# Google Sign-In (see CLAUDE.md's "Google Sign-In" section under "Before
+# building for real devices" for the exact commands).
+android/*.keystore
+android/*.jks
+android/key.properties
+
+# Machine-local SDK paths, never portable across machines/CI.
+android/local.properties

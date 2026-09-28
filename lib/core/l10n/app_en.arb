@@ -1,0 +1,576 @@
+{
+  "@@locale": "en",
+  "appName": "Sea Lanka",
+  "appTagline": "Find the Best Catch with AI",
+  "login": "Login",
+  "welcomeBack": "Welcome Back",
+  "signInToYourAccount": "Sign in to your account",
+  "phoneOrEmail": "Phone or Email",
+  "enterPasswordHint": "Enter password",
+  "enterPhoneValidation": "Enter phone number",
+  "orContinueWith": "or continue with",
+  "otpLogin": "OTP Login",
+  "otpLoginSubtitle": "Enter your registered phone number to receive a one-time login code.",
+  "dontHaveAccount": "Don't have an account? ",
+  "signup": "Sign Up",
+  "logout": "Logout",
+  "forgotPassword": "Forgot Password?",
+  "phoneNumber": "Phone Number",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "fullName": "Full Name",
+  "sendOtp": "Send OTP",
+  "verifyOtp": "Verify OTP",
+  "resendOtp": "Resend OTP",
+  "home": "Home",
+  "pfzMap": "PFZ Map",
+  "logbook": "Logbook",
+  "alerts": "Alerts",
+  "more": "More",
+  "goodMorning": "Good Morning",
+  "fishingConditions": "Fishing Conditions",
+  "weatherSummary": "Weather Summary",
+  "windSpeed": "Wind Speed",
+  "waveHeight": "Wave Height",
+  "seaTemp": "Sea Temperature",
+  "potentialFishingZones": "Potential Fishing Zones",
+  "probability": "Probability",
+  "species": "Species",
+  "distance": "Distance",
+  "choosePlan": "Choose Your Plan",
+  "myLogbook": "My Logbook",
+  "addTrip": "Add Trip",
+  "networkError": "No internet connection",
+  "serverError": "Server error. Please try again.",
+  "excellent": "Excellent",
+  "good": "Good",
+  "fair": "Fair",
+  "poor": "Poor",
+  "createAccount": "Create Account",
+  "joinCommunity": "Join Sri Lanka's smart fishing community",
+  "emailAddress": "Email Address",
+  "optional": "Optional",
+  "fishingType": "Fishing Type",
+  "dayBoat": "Day Boat",
+  "nightBoat": "Night Boat",
+  "trawler": "Trawler",
+  "shore": "Shore",
+  "termsPrefix": "I agree to the ",
+  "termsOfService": "Terms of Service",
+  "termsAnd": " and ",
+  "privacyPolicy": "Privacy Policy",
+  "termsSuffix": " of Sea Lanka / Pelagic Labs (Pvt) Ltd.",
+  "alreadyHaveAccount": "Already have an account? ",
+  "forgotPasswordSubtitle": "Enter your phone number and we'll send a verification code.",
+  "sendOtpCode": "Send OTP Code",
+  "backToSignIn": "Back to Sign In",
+  "verifyCodeTitle": "Verify Code",
+  "sentToPrefix": "Sent to ",
+  "resendCodeIn": "Resend code in ",
+  "verifyCodeCta": "Verify Code",
+  "changePhoneNumber": "Change phone number",
+  "verifyPhoneTitle": "Verify your phone",
+  "verifyPhoneSubtitle": "We sent a code to {phone}. Enter it below to continue.",
+  "@verifyPhoneSubtitle": {
+    "placeholders": {
+      "phone": { "type": "String" }
+    }
+  },
+  "verifyPhoneSubtitleGeneric": "Enter the code we sent to your phone to continue.",
+  "resendCode": "Resend code",
+  "enterPhoneTitle": "Add your phone number",
+  "enterPhoneSubtitle": "Every Sea Lanka account needs a verified phone number, even one signed in with Google.",
+  "phoneLabel": "Phone number",
+  "phoneHint": "07XXXXXXXX",
+  "continueCta": "Continue",
+  "createNewPasswordTitle": "Create New Password",
+  "createNewPasswordSubtitle": "Make it strong — fishermen depend on this.",
+  "newPassword": "New Password",
+  "passwordStrengthWeak": "Weak",
+  "passwordStrengthFair": "Fair",
+  "passwordStrengthStrong": "Strong",
+  "strengthLabel": "Strength: ",
+  "ruleMinChars": "At least 8 characters",
+  "ruleUppercase": "One uppercase letter",
+  "ruleNumber": "One number",
+  "ruleSpecialChar": "One special character",
+  "resetPassword": "Reset Password",
+  "passwordUpdated": "Password Updated!",
+  "redirectingSignIn": "Redirecting you to Sign In…",
+  "stepPersonal": "Personal",
+  "stepBoatInfo": "Boat Info",
+  "stepDone": "Done",
+  "continueLabel": "Continue",
+  "boatInformation": "Boat Information",
+  "boatName": "Boat Name",
+  "registrationNo": "Registration No.",
+  "homeHarbour": "Home Harbour",
+  "fishingDistricts": "Fishing Districts",
+  "onboardingHeadline1": "Find fish before you leave the harbour.",
+  "onboardingDescription1": "Our AI models sea temperature, currents, and historic catch to highlight the most suitable zones, refreshed daily.",
+  "onboardingHeadline2": "See the wind field for 200 nautical miles.",
+  "onboardingDescription2": "Live GFS streamlines visualise storms, calms, and gust corridors at a glance, readable on the deck of a boat at noon.",
+  "onboardingHeadline3": "Sea Lanka speaks your language.",
+  "onboardingDescription3": "English, සිංහල, தமிழ். Every screen, every alert. Swap languages any time from settings without losing your logs.",
+  "onboardingNext": "Next",
+  "onboardingGetStarted": "Get started",
+  "onboardingSkip": "Skip",
+  "enterYourNameValidation": "Enter your name",
+  "minPasswordLengthValidation": "Minimum 6 characters",
+  "passwordsDoNotMatchValidation": "Passwords do not match",
+  "createStrongPasswordHint": "Create a strong password",
+  "repeatPasswordHint": "Repeat password",
+  "safetyAlertsTooltip": "Safety alerts",
+  "profileTooltip": "Profile",
+  "goodMorningGreeting": "Good morning",
+  "goodAfternoonGreeting": "Good afternoon",
+  "goodEveningGreeting": "Good evening",
+  "fishingZonesSection": "Fishing zones",
+  "seeAll": "See all",
+  "tenDayForecast": "10-day forecast",
+  "today": "Today",
+  "todaysForecast": "Today's forecast",
+  "feelsLike": "Feels like {temp} °C",
+  "@feelsLike": {
+    "placeholders": {
+      "temp": { "type": "String" }
+    }
+  },
+  "windLabel": "Wind · {direction}",
+  "@windLabel": {
+    "placeholders": {
+      "direction": { "type": "String" }
+    }
+  },
+  "wavesLabel": "Waves",
+  "rainLabel": "Rain",
+  "pressureLabel": "Pressure",
+  "goodFishing": "Good fishing",
+  "fairFishing": "Fair fishing",
+  "poorFishing": "Poor fishing",
+  "sriLankaRangeLabel": "Sri Lanka · 200 NM",
+  "viewFullMap": "View full map",
+  "weatherAdvisoryTitle": "WEATHER ADVISORY",
+  "advisoryWindPart": "wind is {speed} kn ({condition})",
+  "@advisoryWindPart": {
+    "placeholders": {
+      "speed": { "type": "String" },
+      "condition": { "type": "String" }
+    }
+  },
+  "advisoryWavesPart": "waves are {height} m",
+  "@advisoryWavesPart": {
+    "placeholders": {
+      "height": { "type": "String" }
+    }
+  },
+  "advisoryRainPart": "rain chance is {percent}%",
+  "@advisoryRainPart": {
+    "placeholders": {
+      "percent": { "type": "String" }
+    }
+  },
+  "advisoryPhraseSingular": "an active weather advisory has been issued",
+  "advisoryPhrasePlural": "{count} active weather advisories have been issued",
+  "@advisoryPhrasePlural": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "advisoryEmptyMessage": "{phrase} for Sri Lankan waters. Check the Alerts tab before heading out.",
+  "@advisoryEmptyMessage": {
+    "placeholders": {
+      "phrase": { "type": "String" }
+    }
+  },
+  "advisoryMessage": "{parts} right now. Check conditions before heading out.",
+  "@advisoryMessage": {
+    "placeholders": {
+      "parts": { "type": "String" }
+    }
+  },
+  "visibility": "Visibility",
+  "highTide": "High tide",
+  "retry": "Retry",
+  "noResponsiblePicks": "No responsible picks today",
+  "tryAnotherDayOrSpecies": "Try another day or species",
+  "activeWeatherAdvisorySingular": "Active weather advisory. Suitability % does not reflect safety. Tap to view.",
+  "activeWeatherAdvisoryPlural": "{count} active weather advisories. Suitability % does not reflect safety. Tap to view.",
+  "@activeWeatherAdvisoryPlural": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "allSpecies": "All species",
+  "topPickPerSpecies": "Top pick per species",
+  "noPicksPassedGates": "No picks passed the safety gates for this selection.",
+  "distFromCoast": "{distance} km from coast",
+  "@distFromCoast": {
+    "placeholders": {
+      "distance": { "type": "String" }
+    }
+  },
+  "legendHigh": "High ≥ 80%",
+  "legendMedium": "Medium 50–79%",
+  "legendLow": "Low < 50%",
+  "legendForeignWaters": "Foreign waters, do not cross",
+  "pickRankForDay": "Pick #{rank} for the day",
+  "@pickRankForDay": {
+    "placeholders": {
+      "rank": { "type": "int" }
+    }
+  },
+  "suitability": "suitability",
+  "suitabilityDescription": "How favourable conditions look here, not a guarantee of a catch.",
+  "fromCoast": "From coast",
+  "pastCatchesNearby": "Past catches nearby",
+  "rankToday": "Rank today",
+  "pfzModelRefreshed": "PFZ model {version} · refreshed daily",
+  "@pfzModelRefreshed": {
+    "placeholders": {
+      "version": { "type": "String" }
+    }
+  },
+  "exportLimitReached": "Daily export limit reached. Try again tomorrow.",
+  "navigateToZone": "Navigate to zone",
+  "longRangeNotice": "Long-range pick, beyond where this species is typically fished.",
+  "probabilityHigh": "HIGH",
+  "probabilityMedium": "MEDIUM",
+  "probabilityLow": "LOW",
+  "turnOnLocationHint": "Turn on location to estimate distance, fuel, and trip time.",
+  "tripPlanner": "Trip planner",
+  "oneWay": "One way",
+  "roundTrip": "Round trip",
+  "estFuel": "Est. fuel",
+  "estTime": "Est. time",
+  "newTripEntry": "New trip entry",
+  "tripDetails": "Trip details",
+  "zoneLatitude": "Zone latitude",
+  "zoneLongitude": "Zone longitude",
+  "invalidValue": "Invalid",
+  "durationHours": "Duration (hours)",
+  "minutes": "Minutes",
+  "fuelUsedOptional": "Fuel used, L (optional)",
+  "notesOptional": "Notes (optional)",
+  "photos": "Photos",
+  "add": "Add",
+  "noPhotosAddedYet": "No photos added yet",
+  "catches": "Catches",
+  "noCatchesAddedYet": "No catches added yet",
+  "saveTrip": "Save trip",
+  "cancel": "Cancel",
+  "catchSubtitle": "{weight} kg · {quantity} fish",
+  "@catchSubtitle": {
+    "placeholders": {
+      "weight": { "type": "String" },
+      "quantity": { "type": "String" }
+    }
+  },
+  "addCatch": "Add catch",
+  "speciesHint": "Yellowfin tuna…",
+  "catchWeight": "Catch weight",
+  "count": "Count",
+  "photosUploadFailed": "Some photos failed to upload, try again",
+  "date": "Date",
+  "thisWeek": "This week",
+  "thisMonth": "This month",
+  "thisYear": "This year",
+  "allTime": "All time",
+  "synced": "synced",
+  "totalTrips": "Total trips",
+  "kgCaught": "kg caught",
+  "bestDay": "Best day",
+  "catchLabel": "catch",
+  "fuelLabel": "fuel",
+  "details": "Details",
+  "noTripsLoggedYet": "No trips logged yet",
+  "noTripsInThisPeriod": "No trips in this period",
+  "tapToRecordFirstCatch": "Tap + to record your first catch",
+  "tryDifferentTimeFilter": "Try a different time filter",
+  "retryAction": "Retry",
+  "addTripTooltip": "Add trip",
+  "totalCatch": "Total catch",
+  "durationLabel": "Duration",
+  "fuelTileLabel": "Fuel",
+  "notesLabel": "Notes",
+  "safetyAlertsTitle": "Safety Alerts",
+  "activeAlertsSriLanka": "{count} active alerts · Sri Lankan waters",
+  "@activeAlertsSriLanka": {
+    "placeholders": {
+      "count": { "type": "String" }
+    }
+  },
+  "critical": "Critical",
+  "warning": "Warning",
+  "info": "Info",
+  "issuedAt": "Issued {time}",
+  "@issuedAt": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "expiresAt": "Expires {time}",
+  "@expiresAt": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "severityUrgent": "Urgent",
+  "completeProfileTitle": "One more step",
+  "completeProfileSubtitle": "Add your boat details so we can find fishing zones near you and estimate trips accurately.",
+  "boatNameHint": "Sundara Putha",
+  "registrationNoHint": "CLB-1234",
+  "requiredFieldValidation": "Required",
+  "boatPerformanceOptional": "Boat performance (optional)",
+  "boatPerformanceDescription": "Used to estimate fuel and trip time on the fishing zone map. Leave blank to use a typical small-boat estimate.",
+  "fuelConsumptionLabel": "Fuel consumption (L/hr)",
+  "cruisingSpeedLabel": "Cruising speed (knots)",
+  "egValueHint": "e.g. {value}",
+  "@egValueHint": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "languageLabel": "Language",
+  "unitsLabel": "Units",
+  "homePortLabel": "Home port",
+  "helpAndSupportTitle": "Help & support",
+  "helpSupportContent": "Having trouble with the app? Reach out through the Sea Lanka support channel provided by your local fisheries harbour office, or ask a Pelajic Labs representative.",
+  "okLabel": "OK",
+  "aboutSeaLankaTitle": "About Sea Lanka",
+  "aboutSeaLankaContent": "Sea Lanka\nVersion 1.0.0\n\nAI-powered fishing companion for Sri Lankan fishermen.\n\nA Pelajic Labs Product.",
+  "tripsStatLabel": "Trips",
+  "catchStatLabel": "Catch",
+  "kgTotalLabel": "kg total",
+  "aboutLabel": "About",
+  "logOutLabel": "Log out",
+  "memberSinceLabel": "Member since {date}",
+  "@memberSinceLabel": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "profileTitle": "Profile",
+  "activeSubscriptionLabel": "Active subscription",
+  "inactiveLabel": "Inactive",
+  "manageSubscriptionLabel": "Manage subscription",
+  "chooseYourPlanTitle": "Choose your plan",
+  "subscriptionSubtitle": "Unlock the full power of Sea Lanka",
+  "continueFreeLabel": "Continue free",
+  "subscribeLabel": "Subscribe · LKR {price}/mo",
+  "@subscribeLabel": {
+    "placeholders": {
+      "price": { "type": "String" }
+    }
+  },
+  "cancelAnytimeNote": "Cancel anytime. No hidden fees.",
+  "mostPopularBadge": "MOST POPULAR",
+  "currentPlanBadge": "CURRENT PLAN",
+  "yourCurrentPlanLabel": "Your current plan · {planName}",
+  "@yourCurrentPlanLabel": {
+    "placeholders": {
+      "planName": { "type": "String" }
+    }
+  },
+  "changePlanLabel": "Change plan · LKR {price}/mo",
+  "@changePlanLabel": {
+    "placeholders": {
+      "price": { "type": "String" }
+    }
+  },
+  "renewsOnLabel": "Renews on {date}",
+  "@renewsOnLabel": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "paymentOverdueLabel": "Payment overdue · {days} days left before downgrade to Free",
+  "@paymentOverdueLabel": {
+    "placeholders": {
+      "days": { "type": "String" }
+    }
+  },
+  "paymentDetailsTitle": "Payment details",
+  "paymentDetailsSubtitle": "No real charge is made yet during the beta -- this just confirms your plan choice.",
+  "cardholderNameLabel": "Cardholder name",
+  "cardNumberLabel": "Card number",
+  "expiryLabel": "MM/YY",
+  "cvvLabel": "CVV",
+  "confirmAndPayCta": "Confirm and continue",
+  "freeLabel": "Free",
+  "freeDuringTrialLabel": "Free during beta",
+  "betaTrialBanner": "Beta trial · all features free until {date}",
+  "@betaTrialBanner": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "priceLkrLabel": "LKR {price}",
+  "@priceLkrLabel": {
+    "placeholders": {
+      "price": { "type": "String" }
+    }
+  },
+  "perMonthSuffix": "/mo",
+  "oceanCurrentsTidesTitle": "Ocean Currents & Tides",
+  "currentMapTabLabel": "Current map",
+  "tideGraphTabLabel": "Tide graph",
+  "currentSpeedUnitLabel": "CURRENT M/S",
+  "surfaceCurrentLabel": "{compass} SURFACE CURRENT",
+  "@surfaceCurrentLabel": {
+    "placeholders": {
+      "compass": { "type": "String" }
+    }
+  },
+  "seaTempValueLabel": "{temp} °C sea temp",
+  "@seaTempValueLabel": {
+    "placeholders": {
+      "temp": { "type": "String" }
+    }
+  },
+  "tidePredictionsTitle": "Tide predictions",
+  "todayDateLabel": "Today · {date}",
+  "@todayDateLabel": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "highBadgeLabel": "HIGH",
+  "lowBadgeLabel": "LOW",
+  "tidalRangeAllCapsLabel": "TIDAL RANGE",
+  "nextHighAllCapsLabel": "NEXT HIGH",
+  "salinityAllCapsLabel": "SALINITY",
+  "noTideDataTitle": "No tide data for this location",
+  "noTideDataDescription": "Tide predictions are only available near Sri Lanka's coastal reference stations. Try tapping a point closer to the coast on the current map.",
+  "todaysTideTitle": "Today's tide",
+  "tidalRangeLabel": "Tidal range",
+  "nextHighLabel": "Next high",
+  "tidesCountLabel": "Tides",
+  "tideEventsTitle": "Tide events",
+  "lowTideLabel": "Low tide",
+  "beaufortCalm": "Calm",
+  "beaufortLightAir": "Light air",
+  "beaufortLightBreeze": "Light breeze",
+  "beaufortGentleBreeze": "Gentle breeze",
+  "beaufortModerateBreeze": "Moderate breeze",
+  "beaufortFreshBreeze": "Fresh breeze",
+  "beaufortStrongBreeze": "Strong breeze",
+  "beaufortNearGale": "Near gale",
+  "beaufortGale": "Gale",
+  "nowLabel": "Now",
+  "showConditionsLabel": "Show conditions",
+  "windAdvisoryPeakMessage": "Wind is forecast to pick up to {speed} kn around {time}. Plan your return before then.",
+  "@windAdvisoryPeakMessage": {
+    "placeholders": {
+      "speed": { "type": "String" },
+      "time": { "type": "String" }
+    }
+  },
+  "windAdvisoryCurrentMessage": "Wind is currently {speed} kn ({condition}). Check conditions before heading out.",
+  "@windAdvisoryCurrentMessage": {
+    "placeholders": {
+      "speed": { "type": "String" },
+      "condition": { "type": "String" }
+    }
+  },
+  "windMapTitle": "Wind Map",
+  "radarLabel": "Radar",
+  "currentConditionsAllCaps": "CURRENT CONDITIONS",
+  "dayForecastLabel": "{date} FORECAST",
+  "@dayForecastLabel": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "kmhUnitLabel": "km/h",
+  "beaufortScaleLabel": "Beaufort Scale {scale}, {label}",
+  "@beaufortScaleLabel": {
+    "placeholders": {
+      "scale": { "type": "String" },
+      "label": { "type": "String" }
+    }
+  },
+  "readingForTimeLabel": "Reading for {time} that day",
+  "@readingForTimeLabel": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "hours24SegmentLabel": "24 Hours",
+  "days10SegmentLabel": "10 Days",
+  "outlook24hAllCaps": "24H OUTLOOK",
+  "vesselDataUnavailable": "Vessel data unavailable",
+  "marineTrafficTitle": "Marine Traffic",
+  "daysAgoLabel": "{days}d ago",
+  "@daysAgoLabel": {
+    "placeholders": {
+      "days": { "type": "String" }
+    }
+  },
+  "vesselTier8hPlus": "Vessel, 8h+ fishing today",
+  "vesselTier2to8h": "Vessel, 2-8h fishing",
+  "vesselTierUnder2h": "Vessel, under 2h",
+  "noFishingActivityMessage": "No fishing activity recorded recently",
+  "unnamedVesselLabel": "Unnamed vessel",
+  "unknownFlagLabel": "Unknown flag",
+  "gearTypeLabel": "Gear type",
+  "fishingTodayLabel": "Fishing today",
+  "mmsiLabel": "MMSI",
+  "vesselPositionDisclaimer": "Position is this vessel's ~0.1° grid cell, not an exact fix · Global Fishing Watch, ~72h processing lag",
+  "navigateHereLabel": "Navigate here",
+  "solLunarTitle": "Sol-Lunar",
+  "illuminationPercentLabel": "{percent}% illumination",
+  "@illuminationPercentLabel": {
+    "placeholders": {
+      "percent": { "type": "String" }
+    }
+  },
+  "solarLabel": "Solar",
+  "lunarLabel": "Lunar",
+  "sunriseLabel": "Sunrise",
+  "solarNoonLabel": "Solar noon",
+  "sunsetLabel": "Sunset",
+  "daylightLabel": "Daylight",
+  "moonriseLabel": "Moonrise",
+  "phaseLabel": "Phase",
+  "moonsetLabel": "Moonset",
+  "illuminationLabel": "Illumination",
+  "todaysFishingWindowsTitle": "Today's fishing windows",
+  "majorPeriodLabel": "Major",
+  "minorPeriodLabel": "Minor",
+  "inDurationLabel": "in {duration}",
+  "@inDurationLabel": {
+    "placeholders": {
+      "duration": { "type": "String" }
+    }
+  },
+  "activeLabel": "Active",
+  "passedLabel": "Passed",
+  "weekdayMon": "Mon",
+  "weekdayTue": "Tue",
+  "weekdayWed": "Wed",
+  "weekdayThu": "Thu",
+  "weekdayFri": "Fri",
+  "weekdaySat": "Sat",
+  "weekdaySun": "Sun",
+  "fishingActivityTitle": "Fishing activity",
+  "scoreOutOf100Label": "Score {score}/100",
+  "@scoreOutOf100Label": {
+    "placeholders": {
+      "score": { "type": "String" }
+    }
+  },
+  "nextWindowStartsInLabel": "Next window starts in ",
+  "noMoreWindowsTodayLabel": "No more windows today",
+  "navHomeLabel": "Home",
+  "navPfzLabel": "PFZ",
+  "navAlmanacLabel": "Almanac",
+  "navMarineLabel": "Marine",
+  "navLogbookLabel": "Logbook",
+  "navWindLabel": "Wind",
+  "navCurrentsLabel": "Currents",
+  "navSolLunarLabel": "Sol-Lunar",
+  "selectHomeHarbourTitle": "Select home harbour",
+  "selectYourHomeHarbourHint": "Select your home harbour",
+  "searchHarbourOrDistrictHint": "Search harbour or district"
+}

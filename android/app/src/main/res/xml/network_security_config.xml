@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Explicit rather than relying on Android's implicit default (cleartext
+  blocked for target SDK 28+); a future contributor changing an unrelated
+  manifest setting can't accidentally reopen cleartext to a production host.
+  Cleartext is only allowed to the Android emulator's loopback alias for
+  the host machine (10.0.2.2, see lib/core/network/api_endpoints.dart);
+  everything else, including a physical device's LAN IP set via a
+  dart-define, is HTTPS-only via base-config. Domain entries can't express
+  a CIDR range and a dev machine's LAN IP changes with DHCP anyway, so
+  physical-device testing against a plain-HTTP dev backend needs its own
+  temporary entry added here (or just run the dev backend behind
+  HTTPS/a tunnel instead).
+-->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">10.0.2.2</domain>
+    </domain-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>

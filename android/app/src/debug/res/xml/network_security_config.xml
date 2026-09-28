@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Debug-build override of the main (release) network_security_config, which
+  only allows cleartext to the emulator alias 10.0.2.2. Debug builds also
+  need physical-device testing against a dev machine's LAN IP over plain
+  HTTP (see lib/core/network/api_endpoints.dart); that IP changes with
+  DHCP, so it's not practical to pin here. Cleartext stays broadly allowed
+  for debug builds only; release builds (what ships) get the restrictive
+  config in src/main/res/xml/network_security_config.xml.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>

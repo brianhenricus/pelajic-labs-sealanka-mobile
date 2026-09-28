@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "763948350178",
+    "project_id": "sealanka-f7a83",
+    "storage_bucket": "sealanka-f7a83.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763948350178:android:2e1a499e7990f6afc27cbb",
+        "android_client_info": {
+          "package_name": "com.pelajiclabs.sea_lanka"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtJ_lfuFPQvw4P77ttOu4Kp4CnB61k31c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
